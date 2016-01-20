@@ -1,12 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Optimizely Toggle for Chrome",
   "description": "This extension disables Optimizely for the tab you are browsing, via a switch.",
-  "version": "1.0",
+  "icons": {
+    "16": "./src/img/icon16.png",
+    "48": "./src/img/icon48.png",
+    "128": "./src/img/icon128.png"
+  },
+  "version": "1.0.1",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "./src/img/icon128.png",
     "default_popup": "popup.html"
   },
   "permissions": [

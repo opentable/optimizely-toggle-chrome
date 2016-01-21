@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
 
   "name": "Optimizely Toggle for Chrome",
   "description": "This extension disables Optimizely for the tab you are browsing, via a switch.",

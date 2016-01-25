@@ -25,7 +25,7 @@ cd optimizely-toggle-chrome
 
 To test changes to the extension locally simply install your edited version locally to Chrome. Type chrome://extensions/ on a tab, then select 'Load unpacked extensions...'. It will install your own version of Optimizely Toggle.
 
-![install](http://i.imgur.com/XX4LmfF.png)
+![install](http://i.imgur.com/XX4LmfFl.png)
 
 ## Release History
 - **v1.0.0** (2016-01-20)

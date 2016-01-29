@@ -36,7 +36,15 @@ function editUrl() {
             }
         }
         updatePopupUrl(newUrl);
-        chrome.tabs.update(id, {url: newUrl});
+        chrome.tabs.update(id, {url: newUrl}, function(tab) {
+            chrome.tabs.onUpdated.addListener(function(tabId , info) {
+                if (info.status == "complete") {
+                    chrome.tabs.executeScript({
+                        file: 'alert.js'
+                    });
+                }
+            });
+        });
     });
 }
 

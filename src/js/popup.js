@@ -38,9 +38,9 @@ function editUrl() {
         updatePopupUrl(newUrl);
         chrome.tabs.update(id, {url: newUrl}, function(tab) {
             chrome.tabs.onUpdated.addListener(function(tabId , info) {
-                if (info.status == "complete") {
-                    chrome.tabs.executeScript({
-                        file: 'alert.js'
+                if (info.status == "complete" && newUrl.indexOf('optimizely_disable=true') > -1) {
+                    chrome.tabs.executeScript(null, { file: "jquery-1.12.0.min.js" }, function() {
+                        chrome.tabs.executeScript(null, { file: "alert.js" });
                     });
                 }
             });

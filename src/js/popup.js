@@ -39,9 +39,7 @@ function editUrl() {
         chrome.tabs.update(id, {url: newUrl}, function(tab) {
             chrome.tabs.onUpdated.addListener(function(tabId , info) {
                 if (info.status == "complete" && newUrl.indexOf('optimizely_disable=true') > -1) {
-                    chrome.tabs.executeScript(null, { file: "jquery-1.12.0.min.js" }, function() {
-                        chrome.tabs.executeScript(null, { file: "alert.js" });
-                    });
+                    chrome.tabs.executeScript(null, { file: "alert.js" });
                 }
             });
         });

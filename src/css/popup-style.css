@@ -12,7 +12,8 @@ div {
     font-size: 1.1em;
 }
 .onoffswitch {
-    position: relative; width: 90px;
+    position: relative;
+    width: 120px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -32,28 +33,37 @@ div {
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "OFF";
+    content: "Disabled";
     padding-left: 10px;
-    background-color: #EEEEEE; color: #999999;
+    background-color: #EEE;
+    color: #999;
+    text-transform: uppercase;
 
 }
 .onoffswitch-inner:after {
-    content: "ON";
+    content: "Enabled";
     padding-right: 10px;
-    background-color: #D62430; color: #FFFFFF;
+    background-color: #DA3743;
+    color: #FFF;
     text-align: right;
+    text-transform: uppercase;
 }
 .onoffswitch-switch {
-    display: block; width: 24px; margin: 3px;
-    background: #FFFFFF;
-    position: absolute; top: 0; bottom: 0;
-    right: 69px;
-    border: 2px solid #999999; border-radius: 20px;
+    display: block;
+    width: 24px;
+    margin: 3px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 90px;
+    border: 2px solid #999;
+    border-radius: 20px;
     transition: all 0.3s ease-in 0s;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
     margin-left: 0;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px;
+    right: 12px;
 }

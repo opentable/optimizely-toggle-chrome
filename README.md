@@ -6,7 +6,7 @@ A Chrome extension which can disable Optimizely for your current tab.
 
 ##How do I use it?
 
-Once the [extension](https://chrome.google.com/webstore/detail/optimizely-toggle-for-chr/eaoflpgigmnhpmdgnphpomomaflfglmj?authuser=1) is installed on your browser, you can toggle a simple switch to disable (OFF) or enable (ON) Optimizely experiments on the current page (see screenshots).
+Once the [extension](https://chrome.google.com/webstore/detail/optimizely-toggle-for-chr/eaoflpgigmnhpmdgnphpomomaflfglmj?authuser=1) is installed on your browser, you can toggle a simple switch to disable or enable Optimizely experiments on the current page (see screenshots).
 
 ![enabled](http://i.imgur.com/Or6uQaFl.png)
 

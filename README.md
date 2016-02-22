@@ -36,3 +36,5 @@ To test changes to the extension locally simply install your edited version loca
     - added visual alert to the page when the toggle is disabling Optimizely.
 - **v1.0.3** (2016-02-11)
     - refactored HTML alert injection.
+- **v1.0.4** (2016-02-22)
+    - styling and UI fixes by [@ajcw](https://github.com/ajcw).    

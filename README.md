@@ -31,7 +31,7 @@ To test changes to the extension locally simply install your edited version loca
 - **v1.0.0** (2016-01-20)
     - initial release.
 - **v1.0.1** (2016-01-20)
-    - basic UI changes.
+    - basic UI changes, README review by [@jwhyte88](https://github.com/jwhyte88).
 - **v1.0.2** (2016-01-20)
     - added visual alert to the page when the toggle is disabling Optimizely.
 - **v1.0.3** (2016-02-11)

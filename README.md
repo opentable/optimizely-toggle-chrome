@@ -19,7 +19,7 @@ Optimizely is enabled by default and can be disabled by clicking the switch. An 
 This is an Open Source project, and all feedback is welcome and pull requests encouraged.
 
 ```
-git clone https://github.com/federicomaffei/optimizely-toggle-chrome.git
+git clone https://github.com/opentable/optimizely-toggle-chrome.git
 cd optimizely-toggle-chrome
 ```
 
